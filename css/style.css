@@ -1,0 +1,59 @@
+body {
+    background: #333;
+    color: #fff;
+}
+.navbar {
+    border-bottom: #008ed6 3px solid ;
+    opacity: 0.8;
+}
+.container {
+    max-width: 1300px ;
+}
+
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;    
+}
+
+#home-section .dark-overlay  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: 0.8;
+}
+
+#home-section .fas, #create-section .fas,#explore-section .fas,#share-section .fas  {
+    color: rgb(148, 219, 219);
+    
+    padding: 5px;
+    border-radius: 8px;
+   
+}
+
+
+#create-head-section {
+    background: cadetblue;
+}
+
+
+.img-fluid {
+    padding-top: 50px;
+}
+
+#share-head-section {
+    background: #fff ;
+    color: black;
+}
